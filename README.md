@@ -1,6 +1,6 @@
-Test Questions
+# Test Questions
 
-1. Basic Programming Test:
+## 1. Basic Programming Test:
 
   a. List the libraries or framework you have used creating a python web crawler. In 200 words or
      less, describe the working flow.
@@ -13,10 +13,11 @@ Test Questions
      
   d. Explain what a Python generator is. Modify the answer to part “c” to utilize a generator.
   
-2. Basic Internet Programming: Write a program that prints the IP address of the computer that it
-is being run on. If the computer is not connected to the internet, it should print "not connected"
+## 2. Basic Internet Programming: 
+Write a program that prints the IP address of the computer that it is being run on. 
+If the computer is not connected to the internet, it should print "not connected"
 
-3. Single Scraper (one Virginia case)
+## 3. Single Scraper (one Virginia case)
 
   a. Write a scraper which can download and parse the page here
   
@@ -24,7 +25,7 @@ is being run on. If the computer is not connected to the internet, it should pri
      date received. The format should be in JSON and saved to a filename q3.json. The exact
      format of the JSON file is not important.
       
-4. Batch Scraper (multiple Virginia cases)
+## 4. Batch Scraper (multiple Virginia cases)
 
   a. Build on top of the previous answer to create a program that downloads 50 cases
      sequentially. Note the form of the URL, to scan through caseids 23800 to 23850.
@@ -32,14 +33,14 @@ is being run on. If the computer is not connected to the internet, it should pri
   b. Output the result into a JSON format into a file named q4.json. The JSON format should be a
      list, where each list item is in the same form of the JSON object you created in question 3.
       
-5. Form Submission (Maryland)
+## 5. Form Submission (Maryland)
 
   a. Create a program that downloads the page located here and saves it to the file q5-1.html.
   
   b. Then have the program click the checkbox, and select continue, download the resulting case
      search page and save it into a file named q5-2.html
      
-6. Advanced Scraper
+## 6. Advanced Scraper
 
   a. You should have received the HTML files q6-1.html, q6-2.html, and q6-3.html
   
